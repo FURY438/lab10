@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h3>Приклад 1</h3>
+    <input type="text" id="UN" onkeypress="checkFields()">
+    <input type="text" id="pwd" onkeypress="checkFields()">
+    <button id="send" >Send</button>
+    <h3>Приклад 2</h3>
+    <select id="city" onchange="handleSelect()">
+
+        <option>Виберіть місто</option>
+        
+        <option>Львів</option>
+        
+        <option>Київ</option>
+        
+        <option>Одеса</option>
+        
+        <option>Харків</option>
+        
+        </select>
+        <button id="send-2">Send</button>
+    <h3>Приклад 3-4</h3>
+    <select id="city-3">
+
+        <option>Виберіть місто</option>
+        
+        <option>Львів</option>
+        
+        <option>Київ</option>
+        
+        <option>Одеса</option>
+        
+        <option>Харків</option>
+        
+        </select>
+    <input type="text" id="newElement">
+    <button onclick="addToList()">Add element</button>
+    <button onclick="deleteItem()">Видалити вибраний елемент</button>
+    
+    <h3>Завдання 2</h3>
+    <input type="text" id="text1">
+    <input type="text" id="text2">
+       <button id="btn-z2" onclick="change()">Click</button>
+
+    <h3>Завдання 3</h3>
+    <table border="1" cellspacing="0" cellpadding="5" bordercolor="#000000">
+    <tr id="r1">
+        <td>Назва товару</td>
+        
+        <td>Виробник</td>
+        
+        </tr>
+        <tr>
+        <td>Монітори CRT</td><td>LG</td>
+        </tr>
+        <tr id="r3">
+        <td>DVD ROM</td><td>Toshiba</td>
+        </tr>
+    </table>
+    <button id="btn-z3" onclick="zavd3()">Click</button>
+    <hr>
+    <div class="f1">
+        <h3>Завдання 4</h3>
+        <div class="t">
+            <p>Посилання на новий HTML файл</p>
+        </div>
+        <div class="s"> <a href="newFile.html">Перейти</a></div>
+    </div>
+    <h3>Завдання 6</h3>
+    <input type="text" id="txt-6">
+    <button onclick="zavd6()">Click</button>
+    <h3>Завдання 7</h3>
+    <input type="text" id="txt-7">
+    <button onclick="zavd7()">Click</button>
+    <h3>Завдання 8</h3>
+    <input type="text" id="txt-8">
+    <button onclick="zavd8()">Click</button>
+
+    <h3>Завдання 9</h3>
+   
+    <textarea rows="20" cols="20" id="editor">
+       
+         <!--ffvfvf-->
+          <!--Comentary-->
+        
+              </textarea>
+        
+              <input type="button" value="Очистити теги" onclick="document.getElementById('editor').
+        
+        value=clearTextFromHTMLTags(document.getElementById('editor').value);">
+
+<h3>Завдання 10</h3>
+   
+<textarea rows="20" cols="20" id="editor2">
+   
+     <br>
+     <font>pampampam</font>
+     <p>someone text</p>
+     <hr>
+
+    
+          </textarea>
+    
+          <input type="button" value="Очистити теги" onclick="document.getElementById('editor2').
+    
+    value=clearTextFromHTMLTags2(document.getElementById('editor2').value);">
+        
+        <h3>Завдання 11</h3>
+        <input type="text" onblur="this.value=removeRedundantSpaces(this.value);">
+
+        <h3>Завдання 12</h3>
+        <input type="text" id="txt-12">
+        <button onclick="zavd12()">click</button>
+</body>
+</html>
